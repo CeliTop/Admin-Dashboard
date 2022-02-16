@@ -6,7 +6,7 @@
 
 body {
   display: grid;
-  grid-template: auto auto / 1fr 5fr;
+  grid-template: auto 1fr / 1fr 5fr;
   background-color: black;
   height: 100vh;
 }
