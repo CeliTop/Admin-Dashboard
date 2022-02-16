@@ -196,6 +196,7 @@ li {
   transition: 0.25s;
   border-radius: 50px;
   padding: 0.5em;
+  text-align: center;
 }
 .logo-zone:hover {
   background-color: black;
