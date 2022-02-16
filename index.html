@@ -6,64 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin-Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="top">
         <div class="searchbar">
-          <img src="" alt="search icon" />
+          <img src="./images/search.svg" alt="search icon" />
           <input type="text" />
         </div>
-        <div class="notifications"></div>
+        <div class="notifications">
+          <img src="./images/bell-badge.svg" alt="notification icon" />
+        </div>
         <a href="" class="user">
-          <img src="" alt="user profile picture" />
+          <img
+            src="./images/iron-man.png"
+            alt="user profile picture"
+            class="pp"
+          />
           <div class="name">Iron Man</div>
         </a>
       </div>
       <div class="bottom">
         <div class="welcome">
-          <img src="" alt="user profile picture" />
-          <div>Hi there,</div>
-          <div>Iron Man (@Iron_man)</div>
+          <img
+            src="./images/iron-man.png"
+            alt="user profile picture"
+            class="pp"
+          />
+          <div class="msg">Hi there,</div>
+          <div class="username">Iron Man (@Iron_man)</div>
         </div>
-        <ul class="actions">
-          <li><button>New</button></li>
-          <li><button>Upload</button></li>
-          <li><button>Share</button></li>
+        <div class="actions">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
         </ul>
       </div>
     </header>
     <div class="sidebar">
-      <div class="logo">
-        <img src="" alt="logo" />
+      <div class="logo-zone">
+        <img src="./images/server.svg" alt="logo" />
         <div class="logo-name">Dashboard</div>
       </div>
       <ul class="navigation">
         <li>
-          <a href="" class="home"><img src="" alt="home logo" />Home</a>
+          <a href="" class="home">
+            <img src="./images/home.svg" alt="home logo" />Home
+          </a>
         </li>
         <li>
-          <a href="" class="profile"><img src="" alt="home logo" />Profile</a>
+          <a href="" class="profile">
+            <img
+              src="./images/card-account-details-outline.svg"
+              alt="profile logo"
+            />Profile
+          </a>
         </li>
         <li>
-          <a href="" class="messages"><img src="" alt="home logo" />Messages</a>
+          <a href="" class="messages">
+            <img src="./images/message-reply.svg" alt="message logo" />Messages
+          </a>
         </li>
         <li>
-          <a href="" class="history"><img src="" alt="home logo" />History</a>
+          <a href="" class="history">
+            <img src="./images/clock-time-three.svg" alt="clock logo" />History
+          </a>
         </li>
         <li>
-          <a href="" class="tasks"><img src="" alt="home logo" />Tasks</a>
+          <a href="" class="tasks">
+            <img src="./images/note-multiple.svg" alt="paper logo" />Tasks
+          </a>
         </li>
         <li>
           <a href="" class="communities"
-            ><img src="" alt="home logo" />Communities</a
-          >
+            ><img
+              src="./images/account-group.svg"
+              alt="group logo"
+            />Communities
+          </a>
         </li>
       </ul>
-      <li><a href="" class="settings">Settings</a></li>
-      <li><a href="" class="support">Support</a></li>
-      <li><a href="" class="privacy">Privacy</a></li>
-      <ul class="others"></ul>
+      <ul class="others">
+        <li>
+          <a href="" class="settings">
+            <img src="./images/settings.svg" alt="" />Settings
+          </a>
+        </li>
+        <li>
+          <a href="" class="support">
+            <img src="./images/help-box.svg" alt="" />
+            Support
+          </a>
+        </li>
+        <li>
+          <a href="" class="privacy">
+            <img src="./images/shield-check.svg" alt="" />
+            Privacy
+          </a>
+        </li>
+      </ul>
     </div>
     <main>
       <div class="mid">
@@ -212,25 +259,29 @@
       </div>
       <div class="bottom">
         <h3>Trending</h3>
-        <div class="trendin">
+        <div class="trending">
           <ul>
             <li>
-              <img src="" alt="" />
+              <img
+                src="./images/captain-america.jpg"
+                alt="Captain America"
+                class="pp"
+              />
               <div class="ident">Captain America</div>
               <div class="detail">The oldest one</div>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/hulk.png" alt="Hulk" class="pp" />
               <div class="ident">Hulk</div>
               <div class="detail">The angrier one</div>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/thor.jpeg" alt="Thor" class="pp" />
               <div class="ident">Thor</div>
               <div class="detail">Oh my god</div>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/spiderman.jpeg" alt="Spiderman" class="pp" />
               <div class="ident">Spiderman</div>
               <div class="detail">The coolest one</div>
             </li>
