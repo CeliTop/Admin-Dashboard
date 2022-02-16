@@ -209,6 +209,7 @@ main {
   padding: 0 2em;
   gap: 4em;
   row-gap: 0em;
+  padding-bottom: 1em;
 }
 
 main > .mid {
